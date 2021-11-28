@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #ffffff;
+    color:#555;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+header{
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.row{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+h1{
+    margin:0;
+    color: white;
+    font-size: 250%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-transform: uppercase;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 150%;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 600;
+    word-spacing: 2px;
+}
+
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    margin: 15px 8px;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: 0.2s;
+}
+
+.btn-full:link, .btn-full:visited{
+    background-color: #b71540;
+    color: #fff;
+}
+
+.btn-ghost:link, .btn-ghost:visited{
+    background-color: transparent;
+    border: 2px solid #b71540;
+    color: #b71540;
+}
+
+.btn-full:hover, .btn-full:active{
+    background-color: #7a0e2b;
+}
+.btn-ghost:hover, .btn-ghost:active{
+    border-color: transparent;
+    color:white;
+    background-color: #7a0e2b;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+}
+
+nav{
+    padding-top: 20px;
+}
+
+.main-nav{
+    float:right;
+    list-style: none;
+    
+}
+
+.main-nav li{
+    padding: 30px 0;
+    display: inline-block;
+    margin-left: 40px;
+    
+}
+
+.main-nav li a{
+    font-weight: 100px;
+    color: #fff;
+    text-decoration: none;
+}
+.section-one{
+    margin-top: 80px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 20px;
+}
+
+.title-row{
+    grid-column: 1 /span 4;
+    margin-bottom:30px;
+}
+
+
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #b71540;
+    content: " ";
+    width: 100px;
+    margin:0 auto;
+    margin-top: 20px;
+}
+.title-row p{
+    width: 70%;
+    margin-left:15% ;
+    text-align: center;
+}
+
+.content-row{
+    padding: 10px;
+}
+
+.cotent-row p{
+    font-size: 90%;
+    line-height: 145%;
+}
+
